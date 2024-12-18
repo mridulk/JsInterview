@@ -1,0 +1,21 @@
+.container {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+.input-cont,.dropdown {
+    width: 500px;
+}
+.input {
+    width: 100%;
+    padding: 16px;
+}
+.dropdown {
+    padding:16px 0;
+    border: 1px solid black;
+    border-radius: 8px;
+    display: none;
+}
